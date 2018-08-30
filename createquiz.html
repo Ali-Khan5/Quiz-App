@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body class="createquizbody">
+    <div class="createQuizHTML">
+        <h2 style="text-align:center">Enter Quiz Details</h2>
+        <label>
+            <span>Quiz Name:</span>
+            <input type="text" name="quizname" id="quizname" class="form1">
+        </label>
+        <br>
+        <label>
+            <span>Marks:</span>
+            <input type="text" name="marks" id="marks" class="form2">
+        </label>
+        <br>
+        <label>
+            <span>Time:</span>
+            <input type="text" name="time" id="time" class="form3">
+        </label>
+        <br>
+        <label>
+            <span>Syllabus:</span>
+            <input type="text" name="syllabus" id="syllabus" class="form4">
+        </label>
+        <br>
+        <label>
+            <span> Instructions:</span>
+            <textarea name="instructions" id="instructions" class="form5"></textarea>
+        </label>
+        <br>
+        <br>
+        <button class="sumbitQuizData" onClick='getQuizIntroduction()'>Submit Quiz Data</button>
+
+
+    </div>
+
+
+    <script src="createquiz.js"></script>
+</body>
+
+</html>

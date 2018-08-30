@@ -1,0 +1,302 @@
+.q{
+    list-style: none;
+    display: inline-block;
+}
+.quest{
+    width:60%;
+    padding: 30px;
+    margin: 0px auto 0px auto ;
+    border: 2px solid black;
+    margin-top: 17%;
+    padding: 70px;
+    font-size: 23px;
+    font-weight: bold;
+}
+#ques{
+    margin-left: 39px;
+}
+
+#go{
+    border: none; 
+    margin-left: 130px;
+    height: 30px;
+    width:90px;
+    font-weight: bolder;
+    background-color: green;
+    
+}
+#details{
+    text-align: center;
+}
+#list li{
+    font-size: 24px;
+   
+    
+}
+a{
+     text-decoration: none !important;
+}
+#quizList{
+      width:60%;
+     margin: 0px auto 0px auto ;
+     border: 2px solid black;
+     padding: 10px;
+     margin-top: 14%;
+}
+#quizdisplay{
+    width:60%;
+     margin: 0px auto 0px auto ;
+     margin-top:10%; 
+       border: 2px solid black;
+       text-align: left;
+       padding-top: 30px;
+      
+}
+    .clean{
+       margin-left:10%;
+    }
+    #takequiz{
+       border: none ;
+       width:140px;
+       height: 40px;
+       margin-left: 150px;
+       text-transform: bold;
+       background-color: brown;
+       position: relative;
+   
+    }
+    #result{
+    width:60%;
+     margin: 0px auto 0px auto ;
+     margin-top:10%; 
+       border: 2px solid black;
+       height:150px;
+        padding: 0px auto 0px auto ;
+        padding: 90px;
+    }
+    #res{
+        
+        width: 100%;
+         padding: 100px auto 0px auto ;
+         text-align: center;
+    }
+   
+
+
+.beach{
+     padding-left: 90px;
+    padding: 40px  ;
+    margin-left: 30%;
+    
+   
+    
+
+}
+
+    #box1{
+        margin-top:30%;
+        border:2px solid black;
+        height:150px;
+       padding-top: 50px;
+ border-radius: 8px;
+ color:#1857bc;
+
+    }
+#box2{
+        margin-top:30%;
+        border:2px solid black;
+        border-radius: 8px; 
+height:150px;
+padding-top: 50px;
+color:#1857bc;
+    }
+
+    .createQuizHTML{
+        width:50%;
+        
+         margin: 7% auto 0px auto ;
+         border: 2px solid black;
+         padding: 20px;
+    }
+        .form{
+            margin-left:20px;
+            padding: 15px;
+            font-size: 20px;
+        }
+        .form1{
+          margin-left:20px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .form2{
+            margin-left:63px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .form3{
+            margin-left:76.5px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .form4{
+            margin-left:46px;
+            padding: 10px;
+            font-size: 20px;
+        margin-top:8px;
+        }
+        .form5{
+            margin-top:8px;
+            margin-left:11px;
+            padding: 14px;
+            font-size: 20px;
+        }
+        span{
+            font-size: 22px;
+            color:#ff0400;
+            font-weight: bold;
+        }
+        .sumbitQuizData{
+            border: none;
+            width:150px;
+            height: 80px;
+            background-color:greenyellow;
+            margin-left: 245px;
+        }.f{
+            margin-left:20px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px; 
+        }
+        .f1{
+             margin-left:20px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .f2{
+             margin-left:20px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .f3{
+             margin-left:51px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top:8px;
+        }
+        .butt1{
+             border: none;
+             font-size: 20px;
+            width:160px;
+            height: 100px;
+            background-color:orangered;
+            margin-left: 145px;
+            
+        }
+        .butt2{
+             border: none;
+             font-size:22px;
+            width:160px;
+            height: 80px;
+            background-color:greenyellow;
+            margin-left: 30px;
+           
+            
+        }
+        .indexbody{
+            background: url(book2.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        .createquizbody{
+            background: url(sharpener.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        .addquesbody{
+            background: url(book3.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        .quizlistbody{
+            background:url(book3.jpg) no-repeat  center center;
+            background-size: cover;
+        }
+        .loginPage{
+             background:url(book4.jpg) no-repeat  center center;
+            background-size: cover;
+        }
+        #front{
+            margin-top: 17%;
+            color:white;
+        }
+        #cen{
+            width:60%;
+            margin: 0px auto 0px auto;
+            font-size: 20px;
+            color:white;
+            font-weight: bold;
+            border:2px solid white;
+           padding: 10px;
+           padding-top:-40px;
+           padding-bottom: 40px; 
+        }
+       .littlemove{
+           margin-left: 20px;
+       }.loginbutt{
+           margin-left: 400px;
+           width: 120px;
+           font-weight: bold;
+           color:black;
+           background-color: white;
+       }
+        .loginbutt2{
+           margin-left: 10px;
+           width: 120px;
+           font-weight: bold;
+           color:black;
+           background-color: white;
+       }
+        #signup{
+             width:54%;
+            margin: 200px auto 0px auto;
+            font-size: 20px;
+            color:darkred;
+            font-weight: bold;
+            border:2px solid white;
+           padding: 10px;
+           padding-top:-40px;
+           padding-bottom: 40px; 
+        }
+        .move{
+            margin-left: 39px;
+        }
+        .loginbutt3{
+           margin-left: 10px;
+           width: 280px;
+           font-weight: bold;
+           color:black;
+           background-color: white;
+       }
+        .buttoutt{
+            width:150px;
+            height: 40px;
+            font-weight: bold;
+            border:none;
+               background-color: white;
+               font-size: 17px;
+               border:3px solid black;
+
+        }
+             .buttoutt2{
+            width:150px;
+            height: 40px;
+            margin-left: 30px;
+            font-weight: bold;
+            border:none;
+               background-color: white;
+               font-size: 17px;
+               border:3px solid red;
+               
+        }

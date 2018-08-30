@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add Question</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body class="addquesbody">
+    <div class="createQuizHTML">
+        <h2 style="text-align: center">Add Questions</h2>
+        <label>
+            <span> Questions:</span>
+            <textarea name="questions" id="questions" class="f"></textarea>
+        </label>
+        <br>
+        <label>
+            <span> Options 1: </span>
+            <input type="text" name="option1" id="option1" class="f1">
+        </label>
+
+        <select name="option1Corect" id="option1Corect">
+            <option value="true">Correct</option>
+            <option value="false">Incorrect</option>
+        </select>
+
+        <br>
+        <label>
+            <span> Options 2: </span>
+            <input type="text" name="option2" class="f2" id="option2">
+        </label>
+        <select name="option2Corect" id="option2Corect">
+            <option value="true">Correct</option>
+            <option value="false">Incorrect</option>
+        </select>
+        <br>
+        <label>
+            <span>Marks:</span>
+            <input type="text" name="marks" id="marks" class="f3">
+        </label>
+        </br>
+        </br>
+        </br>
+        <button onClick='addQuestion("add")' class="butt1">Add Another Question</button>
+        <button onClick='addQuestion("save")' class="butt2">Save</button>
+    </div>
+    <script src="addquestion.js"></script>
+</body>
+
+</html>

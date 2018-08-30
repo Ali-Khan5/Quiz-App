@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Take Quiz</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="quizlist.js"></script>
+</head>
+<body onload="onload();" class="quizlistbody">
+    <div id="quizList">
+
+    <h1 id="details"> QUIZES AVAILABLE </h1>
+    <ul id="list">
+
+    </ul>
+</div>
+    <div id="quizdisplay">
+    
+        <h2 id="qname" class="clean"></h2> 
+        <h2 id="syallbus" class="clean"></h2>
+        <h2 id="time" class="clean"></h2>
+        <h2 id="instruct" class="clean"></h2>
+                   
+</br>
+   <a href="#question"> <input type="button" id="takequiz" value="Take Quiz" onclick="questions();"></a>
+    </br>
+    </div>
+<div id="question" class="quest">
+    <h2 style="text-align:center"> Questions    </h2>
+<h3 id="ques"></h3>
+
+<ul>
+ <input type="radio" name="options" id="op1">
+ <li id="list1" class="q"> </li></br>
+ <input type="radio" name="options" id="op2">
+<li id="list2" class="q"> </li></br>
+<input type="button" value="Submit" id="go" onclick="change();"/>
+</ul>
+</div>
+
+
+<div id="result">
+    </br>
+<h1 id="res"></h1>
+<br/>
+<br/>
+<a href="homepage.html"><input type="button" value="HomePage" class="buttoutt"></a>
+<a href="index.html"><input type="button" value="Log Out" class="buttoutt2"></a>
+</div>
+
+</body>
+</html>
